@@ -7,6 +7,7 @@ function toDoList() {
     <div className="list">
       {list.map((entry) => (
         <toDoItem className="listItem"/>
+    
         //{entry}</toDoItem>
       ))}
     </div>
