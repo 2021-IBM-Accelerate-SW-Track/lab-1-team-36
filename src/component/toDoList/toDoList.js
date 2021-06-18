@@ -1,13 +1,14 @@
-import React, { useState} from "react";
+import React, { useState } from "react";
 
 function toDoList() {
   const [list, setList] = useState([]);
-  
-  return(
-    <div>
-      {
-        /*Mapping done here*/
-      }
+
+  return (
+    <div className="list">
+      {list.map((entry) => (
+        <toDoItem className="listItem"/>
+        //{entry}</toDoItem>
+      ))}
     </div>
   );
 }
