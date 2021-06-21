@@ -13,6 +13,6 @@ const chores = [
   }
 ]
 
-// const chores2 = ["wash car", "do laundry", "test"]
+const chores2 = ["wash car", "do laundry", "test"]
 
-// export default chores2
+export default chores2
