@@ -14,8 +14,8 @@ function ToDoItem(props) {
   const handleAdd = () => {
     let dups = false;
     const list = [...props.list];
-    for (let i = 1; i < list.length; i++) {
-      if (list[i] === text) {
+    for (let i = 1; i < list.length && i !== props.idx; i++) {
+      if (list[i] === text ) {
         alert('There can be no duplicates');
         dups = true;
       }
